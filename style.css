@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card {
+    max-width: 500px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.company-name {
+    font-size: 36px;
+    background: linear-gradient(90deg, #2196f3 0%, #4caf50 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.text-secondary {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.form-control {
+    border: 2px solid #ddd;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.3);
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+.btn-primary {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
